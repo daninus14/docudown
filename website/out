@@ -1,0 +1,368 @@
+dribbling to file "out"
+ 
+nil
+cl-user(8): :hist
+1     (setup)
+2     (asdf:oos 'asdf:test-op 'cl-markdown)
+5*    :pop
+6     :pwd
+7     (dribble "out")
+8     :hist
+
+(*) Duplicate entries suppressed.
+cl-user(9): :2
+(asdf:oos 'asdf:test-op 'cl-markdown)
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/cl-ppcre-1.3.0/convert.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/cl-ppcre-1.3.0/optimize.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/cl-ppcre-1.3.0/closures.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/cl-ppcre-1.3.0/repetition-closures.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/cl-ppcre-1.3.0/scanner.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/cl-ppcre-1.3.0/api.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/lw-compat_0.22/lw-compat-package.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/lw-compat_0.22/lw-compat.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/closer-mop_0.41/allegro/closer-mop-packages.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/closer-mop_0.41/allegro/closer-mop.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/.asdf-install-dir/site/closer-mop_0.41/closer-mop-utility-packages.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/moptilities/dev/moptilities.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/package.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/api.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/l0-utils.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/l0-macros.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/l0-arrays.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/l0-clos.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/l0-files.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/set-equal.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/generic-lisp.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/generic-interface.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/defclass-star.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/define-class.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/copy-file.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/defsystem-compatibility/dev/package.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/defsystem-compatibility/dev/api.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/defsystem-compatibility/dev/defsystem-compatibility.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/defsystem-compatibility/dev/asdf.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metabang-bind/dev/bind.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/dynamic-class.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/package.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/conditions.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/container-api.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/containers.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/basic-operations.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/queues.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/stacks.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/trees.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/lists.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/bags-and-sets.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/ring-buffers.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/miscellaneous.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/associative.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/compatibility.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/vectors.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/quad-tree.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/heaps.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/container-mixins.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/union-find-container.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/package-container.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/iterator-api.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/iterators.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/file-iterators.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-containers/dev/utilities-integration.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/package-additional.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/anaphoric.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/graham.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/macros.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/dates-and-times.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/files.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/sequences.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/spy.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/strings.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/utilities.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/searching.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/utilities/views-and-windows.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/allegro/generic-lisp.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/metatilities/dev/allegro/generic-interface-support.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/package.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/api.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/definitions.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/macros.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/class-defs.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/utilities.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/regexes.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/spans.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/markdown.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/html.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/multiple-documents.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/epilogue.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/extension-mechanisms.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/extensions.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/footnotes.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/dev/docs.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/unit-tests/package.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/unit-tests/test-markdown.fasl
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/unit-tests/test-chunkers.fasl
+9692464 bytes have been tenured, next gc will be global.
+See the documentation for variable excl:*global-gc-behavior* for more information.
+; Fast loading
+;    /Users/gwking/.fasls/allegro-8.1m-macosx-x86/Users/gwking/darcs/cl-markdown/unit-tests/test-snippets.fasl
+<ul><li><p>List item 
+</p><p>with another paragraph 
+</p><pre><code>and some code 
+</code></pre></li><li>Another item 
+</li></ul><p>this ends the list and starts a paragraph. 
+</p>
+; Autoloading for make-broadcast-stream:
+; Fast loading from bundle code/streamc.fasl.
+;   Fast loading from bundle code/efft-utf8-base.fasl.
+;   Fast loading from bundle code/efft-void.fasl.
+;   Fast loading from bundle code/efft-latin1-base.fasl.
+Start: cl-markdown-test
+Start: test-snippets
+  run: header-paragraph-embedded-link
+  run: header-paragraph-embedded-link-in-list
+  run: headers-and-lists
+  run: header-in-list
+  run: list-item-with-hard-return
+  run: list-items-and-paragraphs-1
+  run: list-items-and-paragraphs-2
+  run: list-items-and-paragraphs-3
+  run: list-items-and-paragraphs-4
+  run: inline-html-1
+  run: inline-html-2
+Start: entity-snippets
+  run: entity-check-1
+  run: entity-check-2
+  run: entity-check-3
+Start: test-break
+  run: no-spaces
+  run: one-space
+  run: two-spaces
+  run: three-spaces
+  run: rest-of-line
+  run: rest-of-line-2
+  run: rest-of-line-3
+Start: test-lists-and-paragraphs
+  run: list-item-with-paragraph
+Start: test-it-starts-with-block-level-html-p
+  run: TEST-1
+  run: TEST-2
+  run: TEST-3
+  run: TEST-4
+  run: TEST-5
+  run: TEST-6
+  run: TEST-7
+  run: TEST-8
+  run: TEST-9
+  run: TEST-10
+  run: TEST-11
+  run: TEST-12
+  run: TEST-13
+  run: TEST-14
+  run: TEST-15
+  run: TEST-16
+; loading system definition from
+; user-home:darcs;asdf-systems;lift-test.asd into #<The ASDF0 package>
+; Loading user-home:darcs;asdf-systems;lift-test.asd
+;    (/Users/gwking/darcs/asdf-systems/lift-test.asd)
+; registering #<system lift-test @ #x1103a7aa> as lift-test
+Sending report (format :html) to /Users/gwking/darcs/lift/test-results/test-report-2007-08-30-2.html
+Sending report (format :html) to /Users/gwking/darcs/lift/website/output/test-report.html
+Sending report (format :describe) to /Users/gwking/darcs/lift/test-results/test-report-2007-08-30-2.txt
+Sending report (format :turtle) to /Users/gwking/darcs/lift/test-results/test-report-2007-08-30-2.n3
+Sending report (format :save) to /Users/gwking/darcs/lift/test-results/test-report-2007-08-30-2.sav
+Sending report (format :describe) to #<terminal-simple-stream [initial terminal io] fd 0/1>
+Test Report for /Users/gwking/darcs/cl-markdown/lift-local.config: 38 tests run, 4 Failures, 1 Expected failure.
+
+Failure: test-lists-and-paragraphs : list-item-with-paragraph
+  Condition: Ensure-same: "<ul>
+             <li>
+             <p>List item</p>
+             <p>with another paragraph</p>
+             <pre>
+             <code>and some code 
+             </code>
+             </pre></li>
+             <li>Another item</li>
+             </ul>
+             <p>this ends the list and starts a paragraph.</p>
+             
+             " is not metabang.utilities:samep to "<ul>
+             <li>
+             <p>List item</p>
+             <p>with another paragraph</p>
+             <pre>
+             <code>and some code
+             </code>
+             </pre></li>
+             <li>
+             <p>Another item</p>
+             </li>
+             </ul>
+             <p>this ends the list and starts a paragraph.</p>
+             
+             "
+  Code     : ((cl-markdown-test::check-output "
+  * List item
+  
+      with another paragraph
+  
+          and some code
+  
+  * Another item
+  
+  this ends the list and starts a paragraph."))
+  
+Failure: test-snippets : inline-html-2
+  Condition: Ensure-same: "<p>Simple block on one line:</p>
+             <pre>
+             <code>&lt;div&gt;foo&lt;/div&gt; 
+             </code>
+             </pre>
+             " is not metabang.utilities:samep to "<p>Simple block on one line:</p>
+             <pre>
+             <code>&lt;div&gt;foo&lt;/div&gt;
+             </code>
+             </pre>
+             "
+  Code     : ((cl-markdown-test::check-output "Simple block on one line:
+  
+      <div>foo</div>
+  "))
+  
+Failure: test-snippets : list-items-and-paragraphs-2
+  Condition: Ensure-same: "<ul>
+             <li>first line</li>
+             <li>second line</li>
+             </ul>
+             
+             " is not metabang.utilities:samep to "<ul>
+             <li>
+             <p>first line</p>
+             </li>
+             <li>
+             <p>second line</p>
+             </li>
+             </ul>
+             
+             "
+  Code     : ((cl-markdown-test::check-output "* first line
+  
+  * second line"))
+  
+Failure: test-snippets : header-in-list
+  Condition: Ensure-same: "<ul>
+             <li>ok</li>
+             <li style=\"list-style: none\">
+             <h1>eh</h1>
+             </li>
+             </ul>
+             
+             " is not metabang.utilities:samep to "<ul>
+             <li>
+             <p>ok</p>
+             <h1>eh</h1>
+             </li>
+             </ul>
+             
+             "
+  Code     : ((cl-markdown-test::check-output "* ok
+  
+      # eh"))
+  
+Expected failure: test-break : rest-of-line-3
+  Condition: Ensure-same: "<p>this <em>is</em> <strong>strong</strong><br></p>
+             
+             " is not metabang.utilities:samep to "<p>this <em>is</em> <strong>strong</strong></p>
+             
+             "
+  Code     : ((cl-markdown-test::check-output "this _is_ **strong**  "))
+  
+nil
+cl-user(10): (dribble)

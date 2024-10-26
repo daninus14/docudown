@@ -1,0 +1,22 @@
+# 2008-10-12
+
+- wildcards
+- {hs ...}
+- should {clcl}, etc. run MD on their output or not? optionally?
+
+# 2008-10-11 
+
+?? by default, if source is in foo/bar/file.x, we output to
+foo/output/file.x; can overwrite using :output in the component
+and/or :docudown-output-root in the properties
+
+# 2008-10-04 
+
+Do we require people to list all their files?
+
+Do we allow wildcards?
+
+Start simple 
+  copy
+  simple markdown
+  markdown-many
